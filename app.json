@@ -5,9 +5,18 @@
       "bundler": "metro"
     },
     "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/DMSans-Bold.ttf", "./assets/fonts/DMSans-Regular.ttf", "./assets/fonts/DMSans-Medium.ttf"]
+        }
+      ],
       "expo-router"
     ],
     "name": "react_native_jobs",
-    "slug": "react_native_jobs"
+    "slug": "react_native_jobs",
+    "android": {
+      "package": "com.android"
+    }
   }
 }
